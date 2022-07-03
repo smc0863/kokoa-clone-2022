@@ -4,9 +4,7 @@
 @import "status-bar.css";
 html,
 body {
-  height: 100vh;
   font-family: "roboto";
-  /* background-color: red; */
 }
 a {
   text-decoration: none;
@@ -19,12 +17,12 @@ a {
   opacity: 0.9;
 }
 .welcome-header {
-  /* background-color: blue; */
+  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 224px;
+  margin-top: 210px;
 }
 .welcome-header__title {
   /* background-color: blue; */
@@ -54,8 +52,8 @@ a {
   border-style: none;
   font-size: 18px;
   font-weight: 500;
-  width: 400px;
   /* background-color: red; */
+  width: 440px;
 }
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
