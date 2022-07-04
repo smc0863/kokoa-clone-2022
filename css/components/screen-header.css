@@ -1,0 +1,18 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  /* background-color: red; */
+}
+.screen-header-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.screen-header-icons {
+  width: 120px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2e363e;
+}

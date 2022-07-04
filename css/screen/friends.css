@@ -1,0 +1,47 @@
+.frirends-display-link {
+  text-align: center;
+  align-items: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #434343;
+}
+.frirends-display-link i:first-child {
+  color: rgba(0, 0, 0, 0.3);
+  padding-right: 2px;
+}
+.frirends-display-link i:last-child {
+  color: rgba(0, 0, 0, 0.3);
+  padding-left: 8px;
+}
+.user-component-column {
+  /* background-color: blue; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.user-component-avatar {
+  width: 60px;
+  height: 60px;
+  background-color: red;
+  border-radius: 16px;
+  margin-left: 20px;
+}
+.user-component-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.user-component-title {
+  font-weight: 600;
+  font-size: 18px;
+}
+.user-component-subtitle {
+  margin-top: 7px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+}

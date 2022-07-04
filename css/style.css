@@ -1,90 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;500;600;700&display=swap");
 @import "reset.css";
 @import "variables.css";
-@import "status-bar.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+
+/* screen */
+@import "screen/login.css";
+@import "screen/friends.css";
 
 body {
   font-family: "roboto";
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-a {
-  text-decoration: none;
-  color: black;
-}
-.container {
-  width: 100%;
-  height: auto;
-  /* background-color: red; */
-}
-.status-bar {
-  font-size: 18px;
-  margin-bottom: 80px;
-  font-weight: 500;
-  opacity: 0.9;
-}
-.welcome-header {
-  /* background-color: red; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.welcome-header__title {
-  /* background-color: blue; */
-  font-size: 28px;
-  font-weight: 500;
-  margin-bottom: 30px;
-  opacity: 0.8;
-  text-align: center;
-}
-.welcome-header__text {
-  font-size: 17px;
-  opacity: 0.5;
-  line-height: 24px;
-  font-weight: 400;
-  margin-bottom: 80px;
-  text-align: center;
-}
-#login-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-#login-form input {
-  margin: 0px 20px;
-  margin-bottom: 25px;
-  padding: 14px 0;
-  border-style: none;
-  font-size: 18px;
-  font-weight: 500;
-  /* background-color: red; */
-  width: 320px;
-}
-#login-form input:not([type="submit"]) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease-in-out;
-}
-#login-form input:focus {
-  border-color: var(--yellow);
-}
-#login-form input::placeholder {
-  color: rgba(0, 0, 0, 0.5);
-}
-#login-form a {
-  text-align: center;
-  margin-top: 12px;
-  font-size: 14px;
-  opacity: 0.9;
-}
-#login-form input[type="submit"] {
-  background-color: var(--yellow);
-  cursor: pointer;
-  border-radius: 6px;
-  height: 56px;
-}
-#login-form input[value="LogIn"] {
-  margin-top: 15px;
+  color: #2e363e;
 }

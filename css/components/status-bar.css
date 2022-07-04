@@ -1,4 +1,8 @@
 .status-bar {
+  font-size: 18px;
+  margin-bottom: 80px;
+  font-weight: 500;
+  opacity: 0.9;
   display: flex;
   justify-content: center;
   margin-top: 3px;
