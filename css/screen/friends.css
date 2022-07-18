@@ -17,17 +17,20 @@
   padding-left: 8px;
 }
 .user-component-column {
-  /* background-color: blue; */
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
-  margin: 10px 0;
+  margin: 20px 0px;
+  /* background-color: red; */
 }
 .user-component-avatar {
   width: 60px;
   height: 60px;
   background-color: red;
+  background: url(../../KakaoTalk_20211012_120041591_12.jpg) no-repeat;
+  background-size: cover;
+  background-position-x: -20px;
   border-radius: 16px;
   margin-left: 20px;
 }
@@ -44,4 +47,51 @@
   margin-top: 7px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
+}
+.friends-screen__channel {
+  width: 100%;
+  /* background-color: red; */
+}
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  background-color: transparent;
+  margin: 20px 0px 20px 20px;
+}
+.friends-screen__channel-header span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+.friends-screen__channel-header i {
+  margin-right: 20px;
+  color: #7a7a7a;
+}
+.user-wrap {
+  width: 100%;
+  height: auto;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.user-img {
+  width: 54px;
+  height: 54px;
+  background-color: blue;
+  margin-left: 20px;
+  border-radius: 14px;
+  background: url(https://play-lh.googleusercontent.com/cf3DwPLbS8Z55sDvUSTQ6PL1goPdm8KbZ81g4TEUAaeUh5LDhkzdjxKQ2RX6BGpv0x4)
+    no-repeat;
+  background-size: cover;
+}
+.user-name {
+  margin-right: 300px;
+  font-weight: 500;
+  font-size: 17px;
+}
+.icon-box {
+  margin-right: 20px;
 }
